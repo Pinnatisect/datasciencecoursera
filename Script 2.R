@@ -53,3 +53,18 @@ iu <- matrix(1:4,2,2); ix <- matrix(rep(10,4), 2,2)
 iu * ix
 ?rep
 iu %*% ix
+
+
+v <- c(1, "a",T)
+class(v)
+attributes(v)
+
+x <- list(2, "a", "b", TRUE)
+x[[2]]
+
+x <- 1:4 
+y <-2
+x + y
+
+x <- c(3, 5, 1, 10, 12, 6)
+x[x %in% 1:5] <-0
